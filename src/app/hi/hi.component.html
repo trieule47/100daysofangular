@@ -1,0 +1,14 @@
+<p>
+  hi works! <b> {{title}} </b>
+</p>
+<!-- {{ expression }} -->
+<h4>Data binding</h4>
+user <b>Name :</b> {{user.name}}, <b>age :</b> {{user.age}}
+<br>
+<input [type]="inputType" [value]="text"/>
+{{text}}
+<input type="text" [(ngModel)]="text"/>
+{{text}}
+
+<input type="text" [ngModel]="text" (ngModelChange)="text = $event">
+<button (click)="handle">jfafjk</button>
