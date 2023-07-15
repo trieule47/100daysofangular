@@ -1,0 +1,24 @@
+body{
+    --text-colors: yellow;
+}
+
+.box {
+    --text-colors: yellow;
+    margin: 30px;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    color: var(--text-colors);
+}
+
+.red-border {
+    border-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.isDisable {
+    background-color: grey;
+    width: 200px;
+    height: 200px;
+}
