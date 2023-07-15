@@ -1,0 +1,39 @@
+<h4>structure directive *ngIf</h4>
+<div *ngIf="Num1 > Num2; else elseif">
+    {{Num1}} > {{Num2}} đungs 
+</div>
+
+<ng-template #elseif>
+    {{Num1}} > {{Num2}} sai
+</ng-template>
+
+<div *ngIf="Num1 > Num3; then thenBlock else elseBlock">
+</div>
+
+<ng-template #thenBlock>
+    {{Num1}} > {{Num3}} ddung nha
+</ng-template>
+
+<ng-template #elseBlock>
+    sai roi
+</ng-template>
+<br>
+{{Num1}} < {{Num2}}
+<div *ngIf="Num1 < Num2; then thenBlock else elseBlock">
+</div>
+
+<h4>structure directive *ngFor</h4>
+<div *ngFor="let a of arr; index as idx; count as c">
+    val:{{a}} index:{{idx}} total:{{c}}
+</div>
+<br>ng-template và for
+<ng-template 
+    ngFor
+    [ngForOf]="arr"
+    let-a
+    let-idx="index"
+    let-c="count">
+    <div>
+        val:{{a}} index:{{idx}} total:{{c}}
+    </div>
+</ng-template>
