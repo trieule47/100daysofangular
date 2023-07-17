@@ -1,0 +1,24 @@
+<p>
+  auther-detail works!
+</p>
+<table>
+  <thead>
+    <th>id</th>
+    <th>FirstName</th>
+    <th>LastName</th>
+    <th>Email</th>
+    <th>Gender</th>
+    <th>IPAddress</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{author.id}}</td>
+      <td>{{author.firstName}}</td>
+      <td>{{author.lastName}}</td>
+      <td>{{author.email}}</td>
+      <td>{{author.gender}}</td>
+      <td>{{author.ipAddress}}</td>
+      <button type="button" (click)="handleDelete()">delete</button>
+    </tr>
+  </tbody>
+</table>

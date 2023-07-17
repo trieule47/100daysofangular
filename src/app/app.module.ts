@@ -3,14 +3,22 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ProgressBarComponent } from './progressbar/progressbar.component';
+import { FormsModule } from '@angular/forms';
+import { AutherListComponent } from './auther-list/auther-list.component';
+import { AutherDetailComponent } from './auther-detail/auther-detail.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ProgressBarComponent,
+    AutherListComponent,
+    AutherDetailComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

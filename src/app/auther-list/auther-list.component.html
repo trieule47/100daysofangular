@@ -1,0 +1,11 @@
+<p>
+  auther-list works!
+  day 08 component interaction
+</p>
+<app-auther-detail
+  *ngFor="let author of authors"
+  [author] = 'author'
+  (deleteItem) = 'deleteAuthorEvent($event)'
+>
+
+</app-auther-detail>
