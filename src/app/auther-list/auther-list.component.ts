@@ -14,9 +14,9 @@ export class AutherListComponent implements OnInit {
   ngOnInit() {
   }
 
-  deleteAuthorEvent(author: Auther) {
+  deleteAuthor(author: Auther){
     console.log('author', author);
-    this.authors = this.authors.filter(e => e.id !== author.id);
+    this.authors = this.authors.filter(e=> e.id !== author.id);
   }
 
 }

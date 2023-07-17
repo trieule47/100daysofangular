@@ -16,7 +16,7 @@ export class AutherDetailComponent implements OnInit {
   }
 
   handleDelete() {
-    this.deleteItem.emit(this.author)
+    this.deleteItem.emit(this.author);
   }
 
 }

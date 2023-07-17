@@ -3,22 +3,20 @@
 </p>
 <table>
   <thead>
-    <th>id</th>
-    <th>FirstName</th>
-    <th>LastName</th>
+    <th>ID</th>
+    <th>First Name</th>
+    <th>Last Name</th>
     <th>Email</th>
     <th>Gender</th>
-    <th>IPAddress</th>
+    <th>Ip Address</th>
   </thead>
   <tbody>
-    <tr>
-      <td>{{author.id}}</td>
-      <td>{{author.firstName}}</td>
-      <td>{{author.lastName}}</td>
-      <td>{{author.email}}</td>
-      <td>{{author.gender}}</td>
-      <td>{{author.ipAddress}}</td>
-      <button type="button" (click)="handleDelete()">delete</button>
-    </tr>
+    <td>{{author.id}}</td>
+    <td>{{author.firstName}}</td>
+    <td>{{author.lastName}}</td>
+    <td>{{author.email}}</td>
+    <td>{{author.gender}}</td>
+    <td>{{author.ipAddress}}</td>
+    <td><button type="button" (click)="handleDelete()">delete</button></td>
   </tbody>
 </table>
