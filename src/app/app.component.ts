@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  name = 'Trieu';
+  toggle = false;
+
+  changeState(){
+    this.toggle = !this.toggle;
+  }
 }

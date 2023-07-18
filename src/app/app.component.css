@@ -1,0 +1,14 @@
+.app-control {
+    background-color: aqua;
+    color: brown;
+    height: 200px;
+    animation: red 0.7s linear forwards;
+}
+
+.toggle {
+    height: 50px;
+    color: white;
+    animation: green 0.7s linear forwards;
+
+}
+

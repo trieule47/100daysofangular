@@ -1,5 +1,22 @@
-<h2>day 07</h2>
+<!-- <h2>day 07</h2>
 <progress-bar [backgroundColor]="'yellow'" [progressColor]="'grey'" [progress]="10"></progress-bar>
 <progress-bar [backgroundColor]="'black'" [progressColor]="'green'" [progress]="50"></progress-bar>
 <progress-bar [backgroundColor]="'grey'" [progressColor]="'green'" [progress]="'ư-50'"></progress-bar>
-<app-auther-list></app-auther-list>
+<app-auther-list></app-auther-list> -->
+
+<h2>Two way binding</h2>
+<input type="text" [ngModel]="name" (ngModelChange)="name=$event" >
+<input type="text" [(ngModel)]="name" />
+<input type="text" [ngModel]="name" />
+<input type="text" (ngModelChange)="name=$event" />
+
+
+<div
+    class="app-control"
+    [class.toggle]="toggle"
+>
+hello
+<button (click)="changeState()">change</button>
+</div>
+
+{{name}}

@@ -18,7 +18,7 @@ import { AutherDetailComponent } from './auther-detail/auther-detail.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
