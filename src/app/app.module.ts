@@ -7,6 +7,7 @@ import { ProgressBarComponent } from './progressbar/progressbar.component';
 import { FormsModule } from '@angular/forms';
 import { AutherListComponent } from './auther-list/auther-list.component';
 import { AutherDetailComponent } from './auther-detail/auther-detail.component';
+import { ContactImageComponent } from './contact-image/contact-image.component';
 
 
 @NgModule({
@@ -14,7 +15,8 @@ import { AutherDetailComponent } from './auther-detail/auther-detail.component';
     AppComponent,
     ProgressBarComponent,
     AutherListComponent,
-    AutherDetailComponent
+    AutherDetailComponent,
+    ContactImageComponent
   ],
   imports: [
     BrowserModule,
