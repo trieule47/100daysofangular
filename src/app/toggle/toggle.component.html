@@ -1,0 +1,15 @@
+<p>
+  toggle works!
+  {{name}}
+</p>
+
+<div *ngIf="isClick; then ifTrue else ifFalse "></div>
+
+<ng-template #ifTrue>
+  hê hê <b>đúng</b> rồi
+</ng-template>
+
+<ng-template #ifFalse>
+  hê hê <b>sai sai</b> rồi
+</ng-template>
+
